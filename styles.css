@@ -1,0 +1,104 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Mono');
+
+body {
+  color: black;
+
+  font-family: 'Roboto', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  height: 80vh;
+
+  background-image: url("1bf96c47880371.5887c0fc1a77a.png");
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+}
+
+nav ul {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 0;
+
+  display: flex;
+
+  width: 1000px;
+  margin: 0 auto;
+  padding: 15px 20px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  border: 10px solid black;
+  background-color: #fff;
+
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+
+  justify-content: space-between;
+}
+
+ h1 {
+  display: flex;
+
+  padding-top: 300px;
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  font-family: 'Press Start 2P', cursive;
+  /* text-transform: uppercase; */
+  font-size: 100px;
+  font-weight: 500;
+
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+a {
+  text-decoration: none;
+
+  color: white;
+}
+
+a:visited {
+  color: #F41664;
+}
+
+a:hover {
+  text-decoration: underline;
+
+  color: black;
+}
+
+.pff {
+  display: flex;
+
+  padding-top: 250px;
+
+  text-transform: uppercase;
+
+  color: white;
+
+  font-size: 30px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.pff a {
+  background-color: #EF0063;
+}
+
+.pff a:visited {
+  color: #00BA53
+}
